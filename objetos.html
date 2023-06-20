@@ -33,7 +33,7 @@
       <li class="submenu-guia"><a href="ruta4.html">Ruta 4</a></li>
       <li class="submenu-guia"><a href="hierbajos.html">Parque Hierbajos</a></li>
       <li class="submenu-guia"><a href="pancrudo.html">Pueblo Pancrudo</a></li>
-      <li class="submenu-guia"><a href="autopista.html">Autopistaa</a></li>
+      <li class="submenu-guia"><a href="autopista.html">Autopista</a></li>
       <li class="submenu-guia"><a href="torrijas.html">Pueblo Torrijas</a></li>
       <li class="submenu-guia"><a href="ruta6.html">Ruta 6 / Zona Safari</a></li>
       <li class="submenu-guia"><a href="oscuro.html">Bosque Oscuro</a></li>
@@ -60,7 +60,7 @@
     <ul class="submenu" id="submenu-objetos" style="white-space: nowrap;">
 						    <li class="submenu-item"><a href="objetos.html">Ubicación de todos los Objetos</a></li>
                              <li class="submenu-item"><a href="bolas.html">Bolas de Dragón</a></li>
-                             <li class="submenu-item"><a href="discos.html">Discos y Memorias</a></li>
+                             <li class="submenu-item"><a href="discos.html">Discos y Memorias</a></li>  <li class="submenu-item"><a href="yugi.html">Yugi y sus cartas</a></li>
 						</ul>
 <li class="dropdown">
   <a href="#" class="dropdown-link" id="misiones">Lista de Misiones</a>
@@ -95,8 +95,12 @@
         <div class="container-inner">
 			<main>
                 				<h4>Lista de objetos</h4>
+                
+                
 
-                <section id="seccion0">
+<button id="spoilerButton1" onclick="toggleSpoiler('spoilerContent1', 'Pueblo Del Comienzo')" class="spoiler-button">Pueblo Del Comienzo</button>
+<div id="spoilerContent1" style="display: none;">
+ <section id="seccion0">
 				<h5>Pueblo Del Comienzo</h5> 
 <table style="width: 100%; text-align: center;">
   <thead>
@@ -110,11 +114,13 @@
         <p style="font-family: 'Toledo', sans-serif; padding-left: 70px;">Imán</p>
       </td>
       <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px; padding-left: 20px;"><br>Dentro del buzón, en la casa de jorgelini</td>
-      <td>
-          <br> <br>
+      <td> 
+          <br> <br> 
         <img src="images/Objetos/buzon.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px;" class="zoomable">
       </td>
     </tr>
+                               <tr class="spacer-row"></tr>
+
        <tr>
       <td>
         <img src="images/Objetos/LEFTOVERS.png" alt="Objeto 1" style="margin-left: 70px;" class="zoomable">
@@ -126,6 +132,9 @@
         <img src="images/Objetos/papelera.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px;" class="zoomable">
       </td>
     </tr>
+      
+                               <tr class="spacer-row"></tr>
+
           <tr>
       <td>
         <img src="images/Objetos/REVIVE.png" alt="Objeto 1" style="margin-left: 70px;" class="zoomable">
@@ -135,10 +144,18 @@
       <td>
           <br> <br>
         <img src="images/Objetos/lago0.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px;" class="zoomable">
-      </td>
+          
+      </td>            
     </tr>
+      
   </tbody>
 </table> 
+     </div><br><br>
+            
+            
+
+                <button id="spoilerButton2" onclick="toggleSpoiler('spoilerContent2', 'Ruta 1')" class="spoiler-button">Ruta 1</button>
+<div id="spoilerContent2" style="display: none;">
 		<h5>Ruta 1</h5>
                     <table style="width: 100%; text-align: center;">
 
@@ -154,6 +171,8 @@
         <img src="images/Objetos/ruta1a.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+                                     <tr class="spacer-row"></tr>
+
           <tr>
       <td>
         <img src="images/Objetos/SHELLBELL.png" alt="Objeto 1">
@@ -168,6 +187,10 @@
       
   </tbody>
 </table>
+    </div><br><br>
+    
+    <button id="spoilerButton3" onclick="toggleSpoiler('spoilerContent3', 'Ciudad Mondongo')" class="spoiler-button">Ciudad Mondongo</button>
+<div id="spoilerContent3" style="display: none;">
 
                           	<h5>Ciudad Mondongo</h5> 
                        <table style="width: 100%; text-align: center;">
@@ -175,88 +198,226 @@
   <tbody>
     <tr>
       <td>
-        <img src="images/Objetos/NEVERMELTICE.png" alt="Objeto 1">
+        <img src="images/Objetos/DRAGONFANG.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Colmillo dragón</p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Al Este del camino, entre las hierbas.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>A la izquierda del Gimnasio Mondongo.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1a.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/1.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
           <tr>
       <td>
-        <img src="images/Objetos/SHELLBELL.png" alt="Objeto 1">
+        <img src="images/Objetos/SPLASHPLATE.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Tabla linfa </p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Oculto dentro del Santuario, en el jardín de los ancianos.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En un cofre, A la derecha de la noria. </td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1b.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/2.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
           <tr>
       <td>
-        <img src="images/Objetos/NEVERMELTICE.png" alt="Objeto 1">
+        <img src="images/Objetos/MASTERBALL.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Master PokemoitoBall</p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Al Este del camino, entre las hierbas.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En la azotea del Centro Comercial.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1a.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/3.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
           <tr>
       <td>
-        <img src="images/Objetos/SHELLBELL.png" alt="Objeto 1">
+        <img src="images/Objetos/SITRUSBERRY.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Baya Sitrus x4 </p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Oculto dentro del Santuario, en el jardín de los ancianos.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En la papelera del Instituto Científico.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1b.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/4.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
           <tr>
       <td>
-        <img src="images/Objetos/SHELLBELL.png" alt="Objeto 1">
+        <img src="images/Objetos/BLACKBELT.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Cinturón Negro </p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Oculto dentro del Santuario, en el jardín de los ancianos.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En un árbol, a la derecha del Casino.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1b.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/5.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
           <tr>
       <td>
-        <img src="images/Objetos/NEVERMELTICE.png" alt="Objeto 1">
+        <img src="images/Objetos/SKULLFOSSIL.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Fosil Extraño (A)</p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Al Este del camino, entre las hierbas.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En una flor, en la fuente de la entrada del Centro Comercial.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1a.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/6.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
+      
+       <tr class="spacer-row"></tr>
+      
           <tr>
       <td>
-        <img src="images/Objetos/SHELLBELL.png" alt="Objeto 1">
+        <img src="images/Objetos/CLAWFOSSIL.png" alt="Objeto 1">
         <p style="font-family: 'Toledo', sans-serif;">Fosil Extraño (B) </p>
       </td>
-      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Oculto dentro del Santuario, en el jardín de los ancianos.</td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En un arbusto, en la parte sureste del mapa.</td>
       <td>
           <br> <br>
-        <img src="images/Objetos/ruta1b.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
+        <img src="images/Objetos/7.png" alt="Imagen del lugar" style="width: 30%; margin-right: 10px; padding-right: 90px" class="zoomable">
       </td>
     </tr>
       
   </tbody>
 </table>
+    </div><br><br>
                     
+<button id="spoilerButton4" onclick="toggleSpoiler('spoilerContent4', 'Ruta 2')" class="spoiler-button">Ruta 2</button>
+<div id="spoilerContent4" style="display: none;">
+ <section id="seccion0">
                           	<h5>Ruta 2</h5> 
                        <table style="width: 100%; text-align: center;">
+                           
+                             <tbody>
+    <tr>
+      <td>
+        <img src="images/Objetos/EVERSTONE.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Piedra Eterna</p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En la piedra central en el Suroeste de la zona.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/8.png" alt="Imagen del lugar" style="width: 25%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+                                 
+                                  <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/SHARPBEAK.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Pico Afilado </p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Bajando entre el santuario y la entrenadora María.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/9.png" alt="Imagen del lugar" style="width: 25%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+                                 
+                                  <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/REVIVE.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Revivir</p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Al Sureste de la entrada a la Cueva Rocosa.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/10.png" alt="Imagen del lugar" style="width: 25%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+                                  <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/QUICKCLAW.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Garra Rápida</p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Detrás de una roca agrietada al salir de la Cueva.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/11.png" alt="Imagen del lugar" style="width: 25%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+                                 
+                                  <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/SITRUSBERRY.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Baya Sitrus x3 </p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>Al Suroeste de la entrada a la Cueva Rocosa.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/12.png" alt="Imagen del lugar" style="width: 25%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+      
+  </tbody>
                            </table>
+    
+        </div><br><br>
+
+                    
+                    <button id="spoilerButton5" onclick="toggleSpoiler('spoilerContent5', 'Ciudad Batalla')" class="spoiler-button">Ciudad Batalla</button>
+<div id="spoilerContent5" style="display: none;">
+ <section id="seccion0">
+                    
+                          	<h5>Ciudad Batalla</h5> 
+                       <table style="width: 100%; text-align: center;">
+                           
+                             <tbody>
+    <tr>
+      <td>
+        <img src="images/Objetos/LIGHTBALL.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Bola Luminosa</p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>A la derecha de la casa de Yugi, detrás de unas rocas agrietadas.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/13.png" alt="Imagen del lugar" style="width: 35%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+        
+    </tr>
+                                 <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/OLDAMBER.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Ámbar viejo </p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En una maceta, en la entrada de la casa de Yugi.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/14.png" alt="Imagen del lugar" style="width: 35%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+                         <tr class="spacer-row"></tr>
+          <tr>
+      <td>
+        <img src="images/Objetos/SILKSCARF.png" alt="Objeto 1">
+        <p style="font-family: 'Toledo', sans-serif;">Pañuelo de Seda</p>
+      </td>
+      <td style="font-family: 'Toledo', sans-serif; color: white; font-size: 22px;"><br>En la papelera del Gimnasio Trueno.</td>
+      <td>
+          <br> <br>
+        <img src="images/Objetos/15.png" alt="Imagen del lugar" style="width: 35%; margin-right: 10px; padding-right: 90px" class="zoomable">
+      </td>
+    </tr>
+      
+  </tbody>
+                           </table>
+            </div><br><br>
+
+                    
+                    
 
    <br>                 
 <a href="introducción.html" style="text-decoration: none;">
@@ -272,10 +433,8 @@
 
 
 
-				</section>
-			</main>
-		</div>
-	</div>
+	
+
 
 
 <script>
