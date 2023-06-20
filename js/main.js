@@ -40,3 +40,28 @@ $(document).ready(function() {
   });
 });
 
+function toggleSpoiler(buttonText) {
+  var spoiler = document.getElementById("spoilerContent");
+  var spoilerButton = document.getElementById("spoilerButton");
+  
+  if (spoiler.style.display === "none") {
+    spoiler.style.display = "block";
+    spoilerButton.innerText = "Ocultar " + buttonText;
+  } else {
+    spoiler.style.display = "none";
+    spoilerButton.innerText = "Ver " + buttonText;
+  }
+}
+
+function toggleSpoiler(contentId, buttonText) {
+  var spoiler = document.getElementById(contentId);
+  var spoilerButton = document.getElementById('spoilerButton' + contentId.slice(-1));
+  
+  if (spoiler.style.display === "none") {
+    spoiler.style.display = "block";
+    spoilerButton.innerText = "Ocultar " + buttonText;
+  } else {
+    spoiler.style.display = "none";
+    spoilerButton.innerText = "Ver " + buttonText;
+  }
+}

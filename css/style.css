@@ -5,7 +5,7 @@ header {
   background-position: center;
   text-align: center;
   margin-right: -80px;
-  padding-bottom: 440px; /* ajusta el valor según tus necesidades */
+  padding-bottom: 300px; /* ajusta el valor según tus necesidades */
 }
 
 body {
@@ -13,10 +13,12 @@ body {
 background-image: url("../images/fondoo.png");
   background-color: black;
   color: red;
-  padding-right: 78px;
+  padding-right: 72px;
   padding-left: -20px;
   text-align: center;
-  background-size: cover;
+  background-size: auto;
+    height: 100vh; /* Ajusta la altura al 100% de la ventana visible */
+
 }
 
 
@@ -137,7 +139,7 @@ h1, h2, h3 {
       font-weight: 600;
 
 
-    font-size: 56px;
+    font-size: 36px;
     margin-bottom: 60px;
     text-align: center;
 }
@@ -581,3 +583,58 @@ a#Otros::before {
 .foto p {
   margin-top: 5%; /* Espacio entre el texto y la foto */
 }
+
+.rectangulo {
+  background-color: red;
+  color: black;
+  padding: 1%;
+  border-radius: 10px;
+  display: inline-block;
+  width: fit-content; /* Ajusta el tamaño del rectángulo al contenido */
+  margin: 5% auto 3%; /* Centra el rectángulo horizontalmente y ajusta los márgenes verticalmente */
+}
+
+.rectangulo h2 {
+  color: black;
+  margin: 10px; /* Ajusta los valores de margen según tus preferencias */
+    font-size: 36px
+  white-space: nowrap;
+}
+
+.rectangulo1 {
+  background-color: dodgerblue;
+  color: black;
+  padding: 1%;
+  border-radius: 10px;
+  display: inline-block;
+  width: fit-content; /* Ajusta el tamaño del rectángulo al contenido */
+  margin: 5% auto 3%; /* Centra el rectángulo horizontalmente y ajusta los márgenes verticalmente */
+}
+
+.rectangulo1 h2 {
+  color: black;
+  margin: 10px; /* Ajusta los valores de margen según tus preferencias */
+    font-size: 36px
+  white-space: nowrap;
+}
+
+
+
+  .spoiler-button {
+    background-color: #15c630;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+          font-family: 'Toledo', sans-serif;
+
+  }
+
+  .spoiler-button:hover {
+    background-color: #d91c1c;
+  }
+
+  .spacer-row {
+    height: 30px; /* Ajusta la altura del espacio según tus necesidades */
+  }
